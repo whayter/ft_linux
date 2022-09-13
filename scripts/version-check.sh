@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script simple pour afficher les numéros de version des outils de développement critiques
+# https://www.fr.linuxfromscratch.org/view/lfs-stable/chapter02/hostreqs.html
 export LC_ALL=C
 bash --version | head -n1 | cut -d" " -f2-4
 MYSH=$(readlink -f /bin/sh)
