@@ -1,4 +1,4 @@
-Partitioning
+Partitions
 
 * root
 * swap
