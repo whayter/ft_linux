@@ -1,5 +1,7 @@
---> create the required repositories, beeing the root user (4.2):
-```
+## Last setup
+
+* create the required repositories, beeing the root user (4.2):
+```shell
 mkdir -pv $LFS/{etc,var} $LFS/usr/{bin,lib,sbin}
 
 for i in bin lib sbin; do
@@ -11,40 +13,42 @@ case $(uname -m) in
 esac
 ```
 
---> for chapter 6:
+* for chapter 6:
 `mkdir -pv $LFS/tools`
 
 
---> add the LFS user (4.3):
-```
+* add the LFS user (4.3):
+```shell
 groupadd lfs
 useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 ```
---> give a password:
+* give a password:
 `passwd lfs`
 --> give full rights on $LFS:
-```
+```shell
 chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools}
 case $(uname -m) in
   x86_64) chown -v lfs $LFS/lib64 ;;
 esac
 ```
---> if the previous command doesn't end correctly, run `fg` to bring the lfs user to the front.
+* if the previous command doesn't end correctly, run `fg` to bring the lfs user to the front.
 
---> now connect:
-`su - lfs`
+* now connect:
+```shell
+su - lfs
+```
 
 
 
 --> add this file to create a new .bash_profile being lfs user:
-```
+```shell
 cat > ~/.bash_profile << "EOF"
 exec env -i HOME=$HOME TERM=$TERM PS1='\u:\w\$ ' /bin/bash
 EOF
 ```
 
 --> create the .bashrc file being lfs user:
-```
+```shell
 cat > ~/.bashrc << "EOF"
 set +h
 umask 022
@@ -60,7 +64,11 @@ EOF
 ```
 
 --> make sure /etc/bash.bashrc is not present, being the root user:
-`[ ! -e /etc/bash.bashrc ] || mv -v /etc/bash.bashrc /etc/bash.bashrc.NOUSE`
+```sh
+[ ! -e /etc/bash.bashrc ] || mv -v /etc/bash.bashrc /etc/bash.bashrc.NOUSE
+```
 
 --> load the newly created user profile:
-`source ~/.bash_profile`
+```shell
+source ~/.bash_profile
+```
