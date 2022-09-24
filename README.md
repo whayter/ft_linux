@@ -2,6 +2,8 @@
 * [erata](https://www.linuxfromscratch.org/lfs/errata/11.2-systemd/
 
 
+* root:ft_linux
+
 #### To do:
 
 * `vagrant up`
@@ -18,5 +20,5 @@
 
 * enter the chroot env: `sh /ft_linux/scripts/enter_chroot_env.sh`
 
-* go to 8.18 -> `make -j2 -k check`
+* go to (8.32)[http://fr.linuxfromscratch.org/view/lfs-systemd-stable/chapter08/bison.html]
 

@@ -2,8 +2,8 @@ Vagrant.configure("2") do |config|
   config.vm.box = "generic/gentoo"
 
   config.vm.provider "virtualbox" do |vb|    
-    vb.cpus = 2
-    vb.memory = 4096
+    vb.cpus = 10
+    vb.memory = 8000
   end
 
   config.vm.synced_folder ".", "/ft_linux", type: "virtualbox"
