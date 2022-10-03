@@ -1,0 +1,12 @@
+Log created: 2022-09-24T12:36:53.790864000Z
+Process ID:  1473882 (0x167d5a)
+Parent PID:  1473343 (0x167b3f)
+Executable:  /usr/lib/virtualbox/VBoxHeadless
+Arg[0]: /usr/lib/virtualbox/VBoxHeadless
+Arg[1]: --comment
+Arg[2]: ft_linux_host_default_1664007467866_75543
+Arg[3]: --startvm
+Arg[4]: f23aed26-39c5-4a92-b476-388a88c9d300
+Arg[5]: --vrde
+Arg[6]: config
+AddRef: illegal refcnt=3221225469 state=2

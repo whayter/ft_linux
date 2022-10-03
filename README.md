@@ -1,10 +1,10 @@
 * [lfs - version 11.2-systemd](http://fr.linuxfromscratch.org/view/lfs-systemd-stable/)
 * [erata](https://www.linuxfromscratch.org/lfs/errata/11.2-systemd/
 
-
+#### pwd
 * root:ft_linux
 
-#### To do:
+#### start up:
 
 * `vagrant up`
 * `vagrant halt`
@@ -20,5 +20,18 @@
 
 * enter the chroot env: `sh /ft_linux/scripts/enter_chroot_env.sh`
 
-* go to (8.32)[http://fr.linuxfromscratch.org/view/lfs-systemd-stable/chapter08/bison.html]
 
+
+
+#### to do
+
+* network configuration (9.2)
+* managing devices (9.4)
+* Configuring the system clock (9.5)
+* Configuring the Linux Console (9.6)
+* Configuring the System Locale (9.7)
+* Systemd Usage and Configuration (9.10)
+
+* recompile kernel with correct version and distrib name
+
+* install some additionnal packages
