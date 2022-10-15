@@ -20,18 +20,11 @@
 
 * enter the chroot env: `sh /ft_linux/scripts/enter_chroot_env.sh`
 
+## BONUS
 
-
-
-#### to do
-
-* network configuration (9.2)
-* managing devices (9.4)
-* Configuring the system clock (9.5)
-* Configuring the Linux Console (9.6)
-* Configuring the System Locale (9.7)
-* Systemd Usage and Configuration (9.10)
-
-* recompile kernel with correct version and distrib name
-
-* install some additionnal packages
+* wget
+* which
+* curl
+* ssh
+* screen
+* valgrind
