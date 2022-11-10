@@ -12,6 +12,11 @@ Building my own custom Linux system, entirely from source code.
 * screen
 * valgrind
 
+#### => Cmds
+
+* check kernel version: `cat /pro/version`
+
+
 ## Documentation
 
 * [lfs - version 11.2-systemd](http://fr.linuxfromscratch.org/view/lfs-systemd-stable/)
