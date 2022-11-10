@@ -9,7 +9,6 @@ Building my own custom Linux system, entirely from source code.
 * which
 * curl
 * ssh
-* screen
 * valgrind
 
 #### => Cmds
