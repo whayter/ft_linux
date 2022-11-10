@@ -14,7 +14,7 @@ Building my own custom Linux system, entirely from source code.
 
 #### => Cmds
 
-* check kernel version: `cat /pro/version`
+* check kernel version: `cat /proc/version`
 
 
 ## Documentation
