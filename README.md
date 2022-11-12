@@ -14,7 +14,7 @@ Building my own custom Linux system, entirely from source code.
 
 #### => Cmds
 
-* check kernel version: `cat /proc/version`
+* check kernel version: `cat /proc/version` / `uname -r`
 * list partitions: `fdisk -l`
 
 ## Documentation
