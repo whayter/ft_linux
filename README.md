@@ -12,11 +12,6 @@ Building my own custom Linux system, entirely from source code.
 * valgrind
 * screen
 
-#### => Cmds
-
-* check kernel version: `cat /proc/version` / `uname -r`
-* list partitions: `fdisk -l`
-
 ## Documentation
 
 * [lfs - version 11.2-systemd](http://fr.linuxfromscratch.org/view/lfs-systemd-stable/)
